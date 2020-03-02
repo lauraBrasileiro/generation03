@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+        var numeros="32243"
+        //32243
+        //12345
+        
+       //var um  = numeros.substring(5,4)
+        //var dois = numeros.substring(4,3)
+        //var tres = numeros.substring(3,2)
+        //var quatro = numeros.substring(2,1)
+        //var cinco = numeros.substring(1,0)
+
+        //var final = um + dois + tres + quatro + cinco;
+
+        // OUTRA FORMA USANDO SPLIT
+        var n="32243"
+        var num=n.split("").reverse().join(" ");
+             //função split: retira caracteries que estão entre aspas e retorna em Array
+            //funcão reverse: inverte um Array
+            //funcao join: transformaum array em String, entre o parentezes de join da pra separar como quiser
+       console.log(num)
+    
+
+    //    exercicio 2
+       var palindrome="Luza Rocelina, a namorada do Manuel, leu na moda da romana: 'anil é cor azul'"
+       var num=palindrome.split().reverse().join("");
+
+        alert("Oiginal: " + palindrome +"\nInvertido: "+ num)
+
+    //exercicio 3 
+        var nome="odin"
+        //odin
+        //1234
+        var i= nome.split("")
+        
+        for(i=0, i<=4, i++) {
+            console.log(i)
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 06 - JS</title>
+</head>
+<body>
+
+    <script>
+        // length numero de elementos do vetor
+        var texto = prompt("Digite seu texto aqui:")
+        var palavras = texto.split(" ")
+        var tamanho_palavras = palavras.length
+        // var maior_palavra = ""
+        // for ( var i=0; i<tamanho_palavras;i++){
+        //     if(palavras[i].length > maior_palavra.lenght){
+        //         maior_palavra = palavras[i]
+        //     }
+        // }
+        maior = 0
+        var maior_palavra = ""
+        for ( var i=0; i<tamanho_palavras;i++){
+            if(palavras[i].length > maior){
+                maior = palavras[i].length
+                maior_palavra = palavras[i]
+            }
+        }
+
+        alert(maior_palavra)        
+    </script>
+</body>
+</html>

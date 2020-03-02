@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teoria de Funções 01</title>
+</head>
+<body>
+
+    <script>
+        /*Nesse caso é muito mais pratico usar uma função.
+
+        var lado1=5, lado2=3, lado3=1
+        //calculando a media dos lados:    
+        var s1 = (lado1+lado2+lado3)/3
+
+        var lado4=3, lado5=10, lado6=7
+         //calculando a media dos lados: 
+        var s2= (lado4+lado5+lado6)/3
+
+        var lado7=13, lado8=1, lado9=6
+         //calculando a media dos lados: 
+        var s3= (lado7+lado8+lado9)/3
+
+        alert("Soma1:" + s1)
+        alert("Soma:"+ s2)
+        alert("Sona3:" + s3) */
+
+        //codigo com uso de Função:
+
+        function calculaMedia (lado1, lado2, lado3){
+            var s=(lado1+lado2+lado3)/3
+            //1º alert(s)
+            return s
+        }
+        
+        
+        var a = parseFloat(prompt("digite o lado1"))
+        var b = prompt("digite o lado2")
+        b=parseFloat(b)
+        var c = prompt("digite o lado3")
+        c = parseFloat(c)
+        // invocando a função do calculo e chamando parametro aqui em cima.
+        var resultado = calculaMedia(a, b, c)
+        alert(resultado)
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

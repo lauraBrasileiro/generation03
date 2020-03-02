@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 04- JS</title>
+</head>
+<body>
+    <script>
+
+        function menorValor(a, b, c) {
+        
+        if(a > b && c > b){
+            return b;
+        }
+
+        if(b>a && c>a){
+            return a;
+        }
+        
+        else return c;
+
+        }
+        a= prompt("digite um numero")
+        b= prompt("digite outro numero")
+        c= prompt("digite outro numero")
+
+            var menor = menorValor(a,b,c);
+        alert(menor)
+
+    </script>
+</body>
+</html>
